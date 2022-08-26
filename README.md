@@ -81,6 +81,30 @@ Save the following changes and ou should now be able to generate Java code.
 
   Credit and Resource: [Ron Mak](https://www.cs.sjsu.edu/~mak/tutorials/InstallANTLR4.pdf)
 
+# 6) Generating CPP code.
+
+You cannot get to this step until you have completed Step 5 above.
+Go to the directory, ```antlr4-cpp-runtime-4.7.2-source```.
+Create two directories named ```build``` and ```run``` and confirm it with your WSL terminal by typing ```ls```. You should see the directories that
+you created. *Make sure that you are in the correct directory in your WSL shell*. Refer to the figure below.
+
+![image](https://user-images.githubusercontent.com/59067808/187005106-32b021cd-f82d-4b17-a731-675b0b015fca.png)
+
+In your WSL shell, change into the build directory, ```cd build```. 
+
+Type the following commands: 
+```
+cmake ..
+DESTDIR=../run make install
+```
+![image](https://user-images.githubusercontent.com/59067808/187005268-54a34774-cd40-4984-aa6a-e14ef77c29aa.png)
+
+
+
+
+
+
+
 
 
 
