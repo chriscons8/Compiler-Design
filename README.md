@@ -1,7 +1,7 @@
 # Compiler-Design
 Property of CMPE Department for San Jose State University. This repository is a tutorial for SJSU students taking compiler design and learn the foundation of the basic functionalities for compilers. The purpose of this tutorial is create to create a guide on how to install the ANTLR tool. Specifically, **ANTLR 4.7.2**. In addition, this tutorial will have cross compatibility between operating systems such as Windows, Mac, and Ubuntu. This creates ease of accessibility between students and teachers as well as continual updates as assignments become more complex. **It is important for each individual to have ANTLR installed in their system to contribute equally.**
 
-# Contributers
+# Contributors
 ## Students
 ###### Christian Consul
 ###### Tanishq Gadkari
@@ -22,11 +22,11 @@ Credits: ProgrammingKnowledge2
 
 ![image](https://user-images.githubusercontent.com/59067808/186998268-5df33da9-9b1a-4424-9cce-2d789fa5b325.png)
 
-## 4) For Windows, open the cmd prompt and type in 'ubuntu' as shown in the figure below.
+## 3.a) For Windows, open the cmd prompt and type in 'ubuntu' as shown in the figure below.
 
 ![image](https://user-images.githubusercontent.com/59067808/186997010-cc67d750-eae3-4699-937b-f4e8294e512a.png)
 
-## 3) For Mac and Linux, open the terminal and type the commands individually: 
+## 3.b) For Mac and Linux, open the terminal and type the commands individually: 
 ```
 sudo apt update
 sudo apt upgrade
@@ -43,6 +43,7 @@ make -v
   Credit and Resource: [Ron Mak](https://www.cs.sjsu.edu/~mak/tutorials/ConfigureUbuntu.pdf).
   
 ## 5) Install ANTLR4 to generate *Java code*.
-The assignments will start with generating Java code and we will then generate C++ code.
+The assignments will start with generating Java code and we will then generate C++ code. 
+
 
 
