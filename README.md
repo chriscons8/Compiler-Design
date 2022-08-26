@@ -31,12 +31,16 @@ Credits: ProgrammingKnowledge2
 sudo apt update
 sudo apt upgrade
 sudo apt install build-essential
+sudo apt install cmake
+sudo apt install uuid-dev
+sudo apt install pkg-config
 ```
 ## 4) Verify that these commands work:
 ```
 gcc -v
 g++ -v
 make -v
+
 ```
   ![image](https://user-images.githubusercontent.com/59067808/186997386-5d470d7c-e20c-40ed-bb23-8c65c18f913e.png)
   
@@ -44,6 +48,45 @@ make -v
   
 ## 5) Install ANTLR4 to generate *Java code*.
 The assignments will start with generating Java code and we will then generate C++ code. 
+For WSL, type ```explorer.exe .```
+It should open your current directory that you are working with so that you have a visual representation.
+
+![image](https://user-images.githubusercontent.com/59067808/187001241-60d528cc-dfcf-4113-81c4-fbc2306b4166.png)
+
+Open up the directory ```Compiler-Design-Home``` which you should have already downloaded. If you have not done so, please extract it. Drag and drop
+all files, ```antlr4-cpp-runtime-4.7.2-source```,```Compiler-Design``` and ```antlr-4.7.2-complete``` to the user directory. Also create a new directory called ```ANTLR-4.7.2```.
+
+![image](https://user-images.githubusercontent.com/59067808/187002238-3dd16366-9233-45fb-9ac5-a58e42988fbb.png)
+
+Before moving to the next stop, drag and drop ```antlr-4.7.2-complete``` and put it in the directory, ```ANTLR-4.7.2```.
+Right click .bashrc and open it with a notepad/text editor. 
+
+![image](https://user-images.githubusercontent.com/59067808/187001866-dccc2e43-87bf-4091-bd20-b4368771dc24.png)
+
+Scroll at the end of the end of the text and copy and paste the following:
+
+```
+export ANTLR_HOME="$HOME/ANTLR-4.7.2"
+export ANTLR_JAR="$ANTLR_HOME/antlr-4.7.2-complete.jar"
+export CLASSPATH=".:$ANTLR_JAR:$CLASSPATH"
+alias antlr4="java -jar $ANTLR_JAR"
+alias grun="java org.antlr.v4.gui.TestRig"
+```
+
+![image](https://user-images.githubusercontent.com/59067808/187002280-b14b5452-9849-493c-959b-25e4fe296820.png)
+
+Repeat this for ```.bash_profile```
+
+Save the following changes and ou should now be able to generate Java code.
+
+  Credit and Resource: [Ron Mak](https://www.cs.sjsu.edu/~mak/tutorials/InstallANTLR4.pdf)
+
+
+
+
+
+
+
 
 
 
