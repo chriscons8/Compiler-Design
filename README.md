@@ -34,12 +34,18 @@ sudo apt install build-essential
 sudo apt install cmake
 sudo apt install uuid-dev
 sudo apt install pkg-config
+
+sudo apt install default-jdk
+sudo apt install default-jre
 ```
 ## 4) Verify that these commands work:
 ```
 gcc -v
 g++ -v
 make -v
+
+java --version
+javac --version
 
 ```
   ![image](https://user-images.githubusercontent.com/59067808/186997386-5d470d7c-e20c-40ed-bb23-8c65c18f913e.png)
@@ -58,7 +64,7 @@ all files, ```antlr4-cpp-runtime-4.7.2-source```,```Compiler-Design``` and ```an
 
 ![image](https://user-images.githubusercontent.com/59067808/187002238-3dd16366-9233-45fb-9ac5-a58e42988fbb.png)
 
-Before moving to the next stop, drag and drop ```antlr-4.7.2-complete``` and put it in the directory, ```ANTLR-4.7.2```.
+Before moving to the next step, drag and drop ```antlr-4.7.2-complete``` and put it in the directory, ```ANTLR-4.7.2```.
 Right click .bashrc and open it with a notepad/text editor. 
 
 ![image](https://user-images.githubusercontent.com/59067808/187001866-dccc2e43-87bf-4091-bd20-b4368771dc24.png)
@@ -74,6 +80,8 @@ alias grun="java org.antlr.v4.gui.TestRig"
 ```
 
 ![image](https://user-images.githubusercontent.com/59067808/187002280-b14b5452-9849-493c-959b-25e4fe296820.png)
+
+Finalize the changes by typing ```source .bashrc```.
 
 Repeat this for ```.bash_profile```
 
