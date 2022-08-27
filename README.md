@@ -99,6 +99,23 @@ DESTDIR=../run make install
 ```
 ![image](https://user-images.githubusercontent.com/59067808/187005268-54a34774-cd40-4984-aa6a-e14ef77c29aa.png)
 
+Change into the directory, ```antlr4-cpp-runtime-4.7.2-source``` and type the following commands:
+
+```
+cd run/usr/local/include
+sudo cp -r antlr4-runtime /usr/local/include
+cd ../lib
+sudo cp * /usr/local/lib
+sudo ldconfig
+```
+
+Credit and Resource: [Ron Mak](http://www.cs.sjsu.edu/~mak/tutorials/InstallANTLR4Cpp.pdf)
+
+You have succesfully installed ANTLR. I will go over how to create your own Makefiles so that you are able to run/compile/generate your project.
+
+
+
+
 
 
 
