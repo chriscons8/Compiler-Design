@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "STARTING SCRIPT!"
+echo "Script Written by: Tanishq Gadkari"
 sleep 1
 
 
