@@ -40,6 +40,11 @@ Credits and Resources: [Ron Mak](https://www.cs.sjsu.edu/~mak/tutorials/).
 
 Script provided by: [Tanishq Gadkari](https://www.linkedin.com/in/tgadkari/).
 
+
+# Mac users
+
+You can use this script here provided by [Alexander Shapiro](https://www.linkedin.com/in/alexanderjshapiro/).
+
 *There will be a video tutorial soon on compiling/generating/executing your code* 
 
 
